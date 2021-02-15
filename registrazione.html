@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Pompiers&Co.">
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-registrazione.css">
+    <link rel="stylesheet" href="styles/light-theme.css">
+    <title>Amazonia - Registrati</title>
+  </head>
+  <body>
+
+    <nav class="navbar">
+      <h1>
+        <a href="home.html">Amazonia</a>
+      </h1>
+      <div class="searchbox">
+        <input type="text" name="searchbar" placeholder="Cerca tra i nostri articoli">
+        <button type="button" name="button"> <img src="res/search.png" height="12px" width="12px"> </button>
+      </div>
+      <img src="res/mode_switch.png" alt="" height="15px" width="15px">
+      <a href="articoli.html"> <h3>Articoli</h3> </a>
+      <a href="login.html"> <h3>Login</h3> </a>
+      <a href="carrello.html"> <img class="cart" src="res/cart_white.jpg" alt="asdasd" height="25px" width="25px"> </a>
+    </nav>
+
+    <div class="content">
+      <br>
+      <a style="margin-left: 40%; padding-top: 510px;" href="profilo.html">Guarda un profilo di esempio</a>
+      <form>
+        <br>
+        <label for="nome">Nome</label> <input id="nome" type="text" placeholder="Mario"> <br>
+        <label for="cognome">Cognome</label> <input id="cognome" type="text" placeholder="Rossi"> <br>
+        <label for="sesso">Sesso</label>
+        <select id="sesso">
+          <option value="femmina" selected="selected">Femmina</option>
+          <option value="maschio">Maschio</option>
+          <option value="estintore">Estintore</option>
+          <option value="pompiere">Pompiere</option>
+          <option value="altro">Altro</option>
+          <option value="none">Preferisco non specificare</option>
+        </select> <br> <br>
+        <label for="data">Data di nascita</label> <input id="data" type="date"> <br> <br>
+        <label for="email">Email</label> <input id="email" type="text" placeholder="mario.rossi@gmail.com"> <br> <br>
+        <label for="password">Password</label> <input id="password" type="password" placeholder="password123"> <br> <br>
+        <label for="immagine">Immagine Profilo:</label>
+        <div class="immagine">
+          <input type="radio" id="avatar1" name="immagine" value="avatar1"> <label for="avatar1"> <img src="res/avatar1.jpg"  height="64" width="64"> </label>
+          <input type="radio" id="avatar2" name="immagine" value="avatar2"> <label for="avatar2"> <img src="res/avatar2.jpg"  height="64" width="64"> </label>
+
+        </div>
+        <label for="energia">Tipo di energia preferito</label>
+        <select id="energia">
+          <option value="petrolio">Petrolio</option>
+          <option value="rinnovabile" selected="selected">Rinnovabile</option>
+          <option value="carbone">Carbone</option>
+          <option value="gas">Scoregge di Mucca</option>
+        </select> <br> <br>
+        <label for="note">Di' qualcosa di te</label> <br> <textarea id="note" rows="10" cols="30" placeholder="Sono nato a Roma e ho sempre amato gli alberi, poi per sbaglio ci ho dato fuoco e ora sono qui per aggiustare il mio albero."></textarea> <br> <br>
+        <input id="normative" type="checkbox" placeholder="Mario"> <label for="normative">Ho "letto" e accettato l'<a href="res/EULA.txt" target="_blank">EULA</a>.</label> <br>
+        <input id="spam" type="checkbox" placeholder="Mario"> <label for="spam">Voglio ricevere mail promozionali ed altro spam</label> <br> <br>
+        <input class="greenbutton" type="submit" value="Registrati">
+        <input class="redbutton" type="reset" value="Pulisci campi">
+      </form>
+    </div>
+
+  </body>
+</html>

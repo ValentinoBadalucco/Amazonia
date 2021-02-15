@@ -1,0 +1,45 @@
+
+
+/* REGISTRATION PAGE */
+
+form {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 7%;
+  }
+  
+  form > * {
+    margin-bottom: 10px;
+  }
+  
+  form > label,input,.immagine,textarea {
+    display: inline-block;
+  }
+  
+  form > label {
+    width: 30%;
+    text-align: right;
+  }
+  
+  form > label + input,select,textarea,.immagine {
+    width: 30%;
+    margin: 0 0 0 10%;
+  }
+  
+  form > textarea {
+    margin-left: 40%;
+  }
+  form > input[type=checkbox]+label {
+    text-align: left;
+  }
+  form > input[type=checkbox] {
+    margin-left: 40%;
+  }
+  form > input[type=submit] {
+    margin-left: 40%;
+  }
+  
+  form img {
+    border-radius: 100%;
+  }
+  /* END OF REGISTRATION PAGE */

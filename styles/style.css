@@ -1,0 +1,191 @@
+/* VARIABILI */
+:root {
+    /* COLORI */
+    --background: whitesmoke;
+
+    /* DIMENSIONI */
+    --navbarsize: 70px;
+}
+
+
+
+/* GENERAL PURPOSE */
+html {
+  width: 100%;
+  min-height: 100%;
+}
+
+* {
+    
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+    text-overflow: ellipsis;
+}
+
+body {
+    background-color: var(--background);
+    margin: 0;
+    padding: 0;
+  width: 100%;
+  min-width: 100%;
+  line-height: 1;
+}
+
+input[type=text],input[type=password],select,option,input[type=date],textarea {
+  background: whitesmoke;
+  border-radius: 6px;
+}
+
+button,input[type=submit],input[type=reset] {
+  border-radius: 6px;
+}
+
+.nicefont {
+  font-family: 'Barrio', sans-serif;
+}
+
+/* END OF GENERAL PURPOSE */
+
+
+/* TOP NAVBAR */
+.navbar {
+  margin:0;
+    width: 100%;
+    height: var(--navbarsize);
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    z-index: 1;
+}
+
+.navbar h3 {
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+.navbar h1 {
+    margin: auto 15%;
+    margin-left: 40px;
+}
+.navbar a {
+    font-size: 40px;
+    font-family: 'Barrio';
+}
+.navbar .searchbox {
+    width: 60%;
+    align-items: center;
+    display: flex;
+}
+.navbar .searchbox button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  padding: 0;
+  height: 41px;
+    width: 41px;
+}
+.navbar .searchbox button img {
+    height: 35px;
+    width: 35px;
+    padding: 0;
+}
+.navbar .searchbox input {
+    width: 80%;
+    height: 35px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.navbar .cart {
+  right: 0;
+  margin-left: 30px;
+}
+
+
+
+/* END OF TOP NAVBAR*/
+
+
+/* CONTENT SETTINGS */
+
+.content {
+    margin: 0;
+    margin-top: var(--navbarsize);
+    padding: 0;
+    width: 100%;
+}
+
+
+
+.greenbutton {
+  transition-duration: 0.5s;
+  color: white;
+  background-color: green;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  border-radius:2px;
+}
+
+.greenbutton:hover {
+  transition-duration: 0.5s;
+  background-color:  lightgray;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.redbutton {
+  transition-duration: 0.5s;
+  color: white;
+  background-color: red;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  padding: 5px;
+  border-radius:2px;
+}
+
+.redbutton:hover {
+  transition-duration: 0.5s;
+  background-color:  lightgray;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+/* END OF CONTENT SETTINGS */
+
+
+
+/* FOOTER */
+
+.footer {
+  width: 100%;
+  left:0;
+  right:0;
+  bottom:0;
+  min-height: 200px;
+  display: flex;
+  align-content: center;
+
+}
+.footer * {
+  width: 100%;
+}
+
+.footer li {
+ margin: 15px auto;
+}
+
+/* END OF FOOTER */

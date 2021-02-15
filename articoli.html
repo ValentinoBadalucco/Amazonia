@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="it" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Pompiers&Co.">
+    <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-articoli.css">
+    <link rel="stylesheet" href="styles/light-theme.css">
+    <title>Amazonia</title>
+  </head>
+  <body>
+
+
+    <nav class="navbar">
+      <h1>
+        <a href="home.html">Amazonia</a>
+      </h1>
+      <div class="searchbox">
+        <input type="text" name="searchbar" placeholder="Cerca tra i nostri articoli">
+        <button type="button" name="button"> <img src="res/search.png" height="12px" width="12px"> </button>
+      </div>
+      <img src="res/mode_switch.png" alt="" height="15px" width="15px">
+      <a href="articoli.html"> <h3>Articoli</h3> </a>
+      <a href="login.html"> <h3>Login</h3> </a>
+      <a href="carrello.html"> <img class="cart" src="res/cart_white.jpg" alt="asdasd" height="25px" width="25px"> </a>
+    </nav>
+
+    <div class="content">
+      <div class="filterbox">
+        <br><br>
+        <label for="category">Categoria</label>
+        <select id="category">
+          <option value="tutto"  selected="selected">Tutto</option>
+          <option value="scontato">Scontato</option>
+          <option value="firefriday">Fire Friday</option>
+          <option value="cybertreemonday">Cybertree Monday</option>
+          <option value="giocattoli">Giocattoli</option>
+          <option value="cartelli">Segnaletica</option>
+          <option value="supporti">Supporti</option>
+          <option value="18">18+</option>
+        </select> <br> <br>
+        Fascia di prezzo: <br>
+        <label for="mincost">Minimo:</label>  €0 <input type="range" id="mincost" value="0" min="€0" max="€1000">€1000
+        <br>
+        <label for="mincost">Massimo:</label> €0<input type="range" id="maxcost" value="0" min="€0" max="€1000">€1000
+      </div>
+
+      <div class="grid" id="grid">
+        <div class="item">
+          <div class="itemframe">
+            <h1> Disney fire</h1>
+            <img src="res/Articolo1.jpeg" alt="Disney fire">
+            <p>Amante di topolino o di Disneyland? Porta un pezzo della magia di Disney proprio a casa tua</p>
+		      </div>
+          <h4>€46.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Keith firing</h1>
+            <img src="res/Articolo2.jpeg" alt="Keith firing">
+            <p>Amanti di Keith Haring, volete portare un pezzo di arte originale e funzionale in casa vostra? Questo è il prodotto che fa per voi!</p>
+		      </div>
+          <h4>€34.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Smelly cat</h1>
+            <img src="res/Articolo5.jpeg" alt="Smelly cat">
+            <p>Hai sempre voluto un estintore, ma sei un figlio dei fiori? Questo è la soluzione che fa per te! Costruito con materiali al 97% riciclabili, questo estintore salverà l'ambiente in due modi diversi! (Marijuana non compresa nel pacchetto)</p>
+		      </div>
+          <h4>€420.69</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Estintore da Biliardo</h1>
+            <img src="res/Articolo4.jpeg" alt="Estintore da biliardo">
+            <p>Hai sempre voluto un estintore, ma hai una dipendendenza patologica da Biliardo? Questo è l'estintore che fa per te! Questo capolavoro ha ben due utilizzi: estintore e mazza. Buon divertimento!</p>
+		      </div>
+          <h4>€48.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Jumping fire</h1>
+            <img src="res/Articolo7.jpeg" alt="Jumping fire">
+            <p>Amante del paese inesitente? Credi nell'effetto pac-man o più semplicemente ami gli animali? Non farti scappare questo estintore con supporto a forma di canguro! (Pensa a tutti i poveri canguri che sono morti bruciati)</p>
+		      </div>
+          <h4>€12.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Scefff</h1>
+            <img src="res/Articolo10.jpeg" alt="Scefff">
+            <p>Per un tocco di moda in cucina</p>
+		      </div>
+          <h4>€30.00</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+              <h1> Want some spicy soup?</h1>
+            <img src="res/Articolo15.jpeg" alt="Want some spicy soup?">
+            <p>Amanti della zuppa, volete insaporire le vostre tavole? Abbiamo ideato per voi il nuovo estintore a pelati</p>
+		      </div>
+          <h4>30.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Baghdad</h1>
+            <img src="res/Articolo17.jpeg" alt="Baghdad">
+            <p>Per favore non compratelo</p>
+          </div>
+          <h4>€40.00</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Firechup</h1>
+            <img src="res/Articolo19.jpeg" alt="Firechup">
+            <p>La maionese è finita? I soliti contenitori sono oramai noiosi e troppo standard?</p>
+          </div>
+          <h4>€20.00</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Notre dame</h1>
+            <img src="res/Articolo20.jpeg" alt="Notre dame">
+            <p>Date ai francesi ciò che è dei genovesi, Amazonia si tira fuori da ogni equivoco, ogni riferimento a cose o persone è puramente casuale</p>
+		      </div>
+          <h4>€100.00</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Estintore a latte</h1>
+            <img src="res/Articolo22.jpeg" alt="Estintore a latte">
+            <p>In collaborazione con la Tigullio, Amazonia vi propone questo estintore a latte, ideale per le colazioni abbondanti</p>
+		      </div>
+          <h4>€10.49</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Che Guefire</h1>
+            <img src="res/Articolo30.jpeg" alt="Che Guefire">
+            <p>Rivoluzionari? Fatevi sentire</p>
+		      </div>
+          <h4>€20.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Kit Estintore da Pompiere</h1>
+            <img src="res/Bimbo5.jpeg" alt="Estintore Kit Pompiere">
+           <p>Tuo figlio vuole fare il pompiere? Questo kit è quello che fa per te! Integrato di spara schiuma e tripla riserva, è il kit da pompiere per bamibini più conveniente del mercato!</p>
+          </div>
+          <h4>€9.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Adesivo sub</h1>
+            <img src="res/Adesivo1.jpeg" alt="Adesivo sub">
+            <p>Hai un estintore classico e non sai come renderlo più simpatico? Oppure possiedi un acquario e vuoi che tutto sia il più a tema possibili? Ci sembra proprio il prodotto per te</p>
+		      </div>
+          <h4>€5.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Beer party</h1>
+            <img src="res/Bere1.jpeg" alt="Beer party">
+            <p>Niente più feste noiosi tra gli amanti degli incendi!</p>
+		      </div>
+          <h4>€15.00</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Porta vino</h1>
+            <img src="res/Bere5.jpeg" alt="Porta vino">
+            <p>Per gli amici più raffinati invece, questo porta vino con tanto di reggi calici.</p>
+          </div>
+          <h4>€35.00</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Kit pompiere con veste</h1>
+            <img src="res/Bimbo3.jpeg" alt="Kit pompiere con veste">
+            <p>Per far divertire i tuoi piccoli</p>
+          </div>
+          <h4>€15.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Cartello estintore carrelato</h1>
+            <img src="res/Cartello1.jpeg" alt="Cartello estintore carrelato">
+          </div>
+          <h4>€10.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Cartello estintore</h1>
+            <img src="res/Cartello2.jpeg" alt="Cartello estintore">
+          </div>
+          <h4>€10.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> USFire</h1>
+            <img src="res/Gadget1.jpg" alt="USFire">
+            <p>Se siete amanti delle fiamme, o meglio, se vi piace spegnerle, non fatevi scappare questa fantastica USB da 69GB </p>
+          </div>
+          <h4>451°F</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Fire Fart</h1>
+            <img src="res/Gadget4.jpeg" alt="Fire Fart">
+           <p>Si commenta da solo</p>
+		      </div>
+          <h4>€6.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Mini giallo</h1>
+            <img src="res/Mini1.jpeg" alt="Mini giallo">
+            <p>Per avere con te sempre a portata di mano, lo trovi in più colorazioni! SOLO SUL NOSTRO SITO</p>
+		      </div>
+          <h4>€6.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Mini verde</h1>
+            <img src="res/Mini4.jpeg" alt="Mini verde">
+            <p>Per avere con te sempre a portata di mano, lo trovi in più colorazioni! SOLO SUL NOSTRO SITO</p>
+		      </div>
+          <h4>€6.99</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Cassa a muro</h1>
+            <img src="res/Supporto1.jpeg" alt="Casa a muro">
+          </div>
+          <h4>€14.50</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+        <div class="item">
+          <div class="itemframe">
+            <h1> Supporto a piedistallo</h1>
+            <img src="res/Supporto2.jpeg" alt="Supporto a piedistallo">
+          </div>
+          <h4>€14.50</h4>
+          <button class="greenbutton" type="button" name="button">Aggiungi al carrello</button>
+        </div>
+
+      </div>
+
+      <p id="totale">$$</p>
+      <button class="greenbutton" type="button" name="button">Acccuista</button>
+
+    </div>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script type="text/javascript" src="scripts/articoli.js"></script>
+</html>

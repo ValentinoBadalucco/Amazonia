@@ -1,0 +1,40 @@
+
+
+/* REGISTRATION PAGE */
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 7%;
+  }
+  
+  .content * {
+    margin-bottom: 10px;
+  }
+  .content p {
+    margin-bottom: 200px;
+  }
+  
+  .content > p {
+    display: inline-block;
+  }
+  
+  .content img {
+    margin-left: 30%;
+  }
+  .content > label {
+    width: 30%;
+    text-align: right;
+    margin-left: 30%;
+  }
+  
+  .content > label + p {
+    width: 30%;
+    margin: 0 0 0 50%;
+    text-align: left;
+  }
+  
+  .content img {
+    border-radius: 100%;
+  }
+  /* END OF REGISTRATION PAGE */

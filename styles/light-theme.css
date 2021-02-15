@@ -1,0 +1,59 @@
+* {
+    color: black;
+}
+
+.body {
+    background-color: whitesmoke;
+}
+
+.navbar {
+    background-color: whitesmoke;
+    border-bottom: 3px solid black;
+}
+.navbar .cart {
+    filter: invert(100%);
+}
+
+
+
+
+
+
+
+.front button {
+    transition-duration: 0.5s;
+    background-color: whitesmoke;
+    color: black;
+    height: 60px;
+    width: 260px;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .front button:hover {
+    transition-duration: 0.5s;
+    color: white;
+    background-color: blacK;
+  }
+  
+  .stripeheader {
+    background-color: rgba(248, 249, 250, .9);
+}
+
+
+  .stripe .grid .item:hover {
+      background-color: rgba(248, 249, 250, .9);
+  }
+
+  .stripe .grid .item {
+      background-color: rgba(248, 249, 250, .7);
+  }
+
+
+
+  .footer {
+      
+  background-color: whitesmoke;
+  }

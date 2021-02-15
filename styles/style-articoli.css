@@ -9,19 +9,19 @@
     justify-content: center;
     text-align: center;
   }
-  
+
   .grid .item {
     margin: 0;
     padding: 30px;
     height: 550px;
     position: relative;
   }
-  
+
   .grid .item img {
     height: 200px;
     width: auto;
   }
-  
+
   .grid .item button,h4 {
     margin-right: auto;
     margin-left: auto;
@@ -40,18 +40,17 @@
     overflow: hidden;
     height: 450px;
   }
-  
+
   .itemframe p {
     overflow: hidden;
     text-overflow: ellipsis;
     display: -webkit-box;
-     -webkit-line-clamp: 6;
+     -webkit-line-clamp: 4;
      -webkit-box-orient: vertical;
   }
-  
+
   .filterbox {
     margin: 70px 0 0 60px;
   }
 
   /* END OF ARTICLES GRID */
-  

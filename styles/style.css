@@ -21,6 +21,7 @@ html {
     list-style: none;
     font-family: Arial, sans-serif;
     text-overflow: ellipsis;
+    outline: none;
 }
 
 body {
@@ -182,6 +183,20 @@ button,input[type=submit],input[type=reset] {
   font-weight: bold;
   cursor: pointer;
   border: none;
+}
+
+
+.descbutton{
+  background: transparent;
+  border: none;
+  padding:0;
+  outline: none;
+}
+.descbutton:hover{
+  transition-timing-function: ease;
+  transition-duration: 2s;
+  font-style: italic;
+  cursor: pointer;
 }
 
 /* END OF CONTENT SETTINGS */

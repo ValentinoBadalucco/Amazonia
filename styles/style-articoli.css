@@ -27,6 +27,13 @@
     margin-left: auto;
     width: 150px;
   }
+
+  .item:hover{
+    transition-timing-function: ease;
+    transition-duration: 0.2s;
+    background-color: rgba(50, 50, 50, 0.1);
+  }
+
   .itemframe h1 {
     height: 70px;
     text-overflow: ellipsis;

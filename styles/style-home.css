@@ -8,17 +8,17 @@
     text-align:center;
     position: relative;
   }
-  
+
   .front * {
     left:0;
     right:0;
   }
-  
+
   .front a {
     position: absolute;
     bottom:15%;
   }
-  
+
   .front button {
     transition-duration: 0.5s;
     color: white;
@@ -30,18 +30,18 @@
     cursor: pointer;
     border: none;
   }
-  
+
   .front button:hover {
     transition-duration: 0.5s;
     background-color: whitesmoke;
     color: black;
   }
-  
+
   /* END OF FRONT PAGE */
-  
-  
+
+
   /* STRIPES */
-  
+
   .stripe{
       background-color: blueviolet;
       background-image: url("../res/fire_bg.jpg");
@@ -53,26 +53,26 @@
       justify-content: center;
       text-align: center;
   }
-  
+
   .stripeheader {
       margin: 0;
       margin-bottom: 20px;
       padding: 20px 0;
       text-align: center;
   }
-  
-  
-  
+
+
+
   .stripeheader > h3 {
       font-size: 40px;
   }
-  
+
   .stripeheader > * {
       margin: 0 auto;
       font-size: 20px;
       font-style: bold;
   }
-  
+
   .stripe .grid {
       margin: 20px;
       margin-bottom: 0;
@@ -96,7 +96,7 @@
       width: auto;
       border-radius: 20px;
   }
-  
+
   .stripe .grid .item h1 {
     margin-top: 0;
     overflow: hidden;
@@ -112,23 +112,21 @@
   .stripe .grid .item font {
       font-size: 20px;
   }
-  
+
   .stripe .grid .item:hover {
     transition-duration: 0.4s;
       cursor: pointer;
   }
-  
+
   .firefriday {
       background-image: url("../res/fire_bg.gif");
   }
-  
+
   .bestselling {
       background-image: url("../res/sinistra_bg.jpg");
   }
-  
+
   .onsale {
       background-image: url("../res/onsale.jpg");
   }
   /* END OF STRIPES */
-  
-  

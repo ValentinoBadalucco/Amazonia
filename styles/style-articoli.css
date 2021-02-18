@@ -60,4 +60,9 @@
     margin: 70px 0 0 60px;
   }
 
+
+  .totale{
+    z-index: 8;
+  }
+
   /* END OF ARTICLES GRID */

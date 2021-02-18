@@ -1,0 +1,81 @@
+html{
+  background: black;
+}
+ html:hover{
+   transition-delay: 1s;
+   transition: ease-in-out 2s;
+   background: whitesmoke;
+ }
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+html .logo img{
+  filter:invert(100%);
+  width: 60%;
+  height:60%;
+  align: center;
+}
+
+html:hover .logo img{
+  transition: ease-in-out 2s;
+  filter:invert(0);
+}
+
+html .social {
+  opacity: 0;
+}
+html:hover .social{
+  transition: ease-in-out 2s;
+  opacity: 1;
+}
+
+.social{
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.fa{
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid black;
+  border-radius:50%;
+  padding: 20px;
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa img {
+  transition: ease-in-out .3s;
+}
+.fa:hover img{
+  transition: ease-in-out .3s;
+  color: red;
+  padding: 20px;
+  border-radius: 50%;
+}
+
+.facebook:hover img {
+  background-color: rgba(0, 0, 255, 1);
+}
+.instagram:hover img {
+  background-color: rgba(193,53,132, 1);
+}
+.pinterest:hover img {
+  background-color: rgba(240, 0, 35, 1);
+}
+.youtube:hover img {
+  background-color: rgba(155, 0, 0, 1);
+}
+.twitter:hover img {
+  background-color: rgba(29, 161, 242, 1);
+}

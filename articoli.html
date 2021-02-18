@@ -6,7 +6,7 @@
     <link href='https://fonts.googleapis.com/css?family=Barrio' rel='stylesheet'>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/style-articoli.css">
-    <link id="theme" rel="stylesheet" href="styles/light-theme.css">
+    <link id="theme" rel="stylesheet" href="styles/dark-theme.css">
     <title>Amazonia</title>
   </head>
   <body>
@@ -20,7 +20,7 @@
         <input type="text" name="searchbar" placeholder="Cerca tra i nostri articoli">
         <button type="button" name="button"> <img src="res/search.png" height="12px" width="12px"> </button>
       </div>
-      <img id="mode_switch" src="res/mode_switch.png" alt="" height="15px" width="15px">
+      <img id="mode_switch" src="res/light-theme.png" alt="" height="15px" width="15px">
       <a href="articoli.html"> <h3>Articoli</h3> </a>
       <a href="login.html"> <h3>Login</h3> </a>
       <a href="carrello.html"> <img class="cart" src="res/cart_white.jpg" alt="asdasd" height="25px" width="25px"> </a>
@@ -43,7 +43,7 @@
         <label for="amount">Fascia di prezzo:</label> <input type="text" id="amount" readonly style="border: 0;"> <br>
         <br> <div id="range" style="min-width: 300px; max-width:600px;"></div>
       </div> <br>
-      <div style="padding:30px; right:0; position:fixed; background-color:rgba(150, 150, 150, 0.4); border-top-left-radius:20%;border-bottom-left-radius:20%;">
+      <div class="totale" style="top:90px; padding:30px; right:0; position:absolute; background-color:rgba(200, 200, 200, 1); border-top-left-radius:20%;border-bottom-left-radius:20%;">
         <p style="font-weight: bold;">Totale: </p> <p id="totale">0</p>
         <button class="greenbutton" type="button" name="button">Acccuista</button>
       </div>
